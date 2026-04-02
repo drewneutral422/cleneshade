@@ -1,0 +1,11 @@
+import mathmod.math
+
+conf (Num1) as ("50")
+
+public class (Send Calc) {
+   # Works with two numbers
+   mathmod.math.add(10, 20)
+   
+   # Works with a variable and a number
+   mathmod.math.add(Num1, 100)
+}
