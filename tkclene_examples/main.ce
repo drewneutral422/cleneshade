@@ -1,0 +1,21 @@
+import TKclene.Widgets
+
+conf (Header) as ("TKclene Lightweight UI")
+conf (Prompt) as ("Enter Name:")
+
+public class (Send TKUI) {
+    TKclene.Widgets.init()
+
+    # Standard TK Widgets
+    TKclene.Widgets.add("Label", Header)
+    
+    # Input field (In TK it's 'Entry')
+    TKclene.Widgets.add("Label", Prompt)
+    TKclene.Widgets.add("Entry")
+    
+    # Buttons and Progress
+    TKclene.Widgets.add("Button", "Process Data")
+    TKclene.Widgets.add("Progressbar")
+
+    TKclene.Widgets.show()
+}

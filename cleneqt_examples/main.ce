@@ -1,0 +1,26 @@
+import CleneQt.Widgets
+
+conf (UserLabel) as ("Enter Username:")
+conf (BtnName) as ("Login")
+
+public class (Send FullUI) {
+    CleneQt.Widgets.init()
+
+    # Standard Widgets
+    CleneQt.Widgets.add("QLabel", UserLabel)
+    CleneQt.Widgets.add("QLineEdit")
+    
+    # Complex Widgets
+    CleneQt.Widgets.add("QCalendarWidget")
+    CleneQt.Widgets.add("QProgressBar")
+    CleneQt.Widgets.add("QDial")
+    
+    # Interactive Widgets
+    CleneQt.Widgets.add("QPushButton", BtnName)
+    CleneQt.Widgets.add("QCheckBox", "Remember Me")
+
+    # Layout Docks
+    CleneQt.Widgets.add_dock("File Tree", "left")
+
+    CleneQt.Widgets.show()
+}

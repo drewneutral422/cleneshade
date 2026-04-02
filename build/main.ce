@@ -1,0 +1,23 @@
+import WxClene.Widgets
+
+conf (AppHeader) as ("WxClene Professional")
+conf (Submit) as ("Save Changes")
+
+public class (Send WxUI) {
+    WxClene.Widgets.init()
+
+    # Standard wxWidgets (Note: wx uses 'StaticText' instead of 'Label')
+    WxClene.Widgets.add("StaticText", AppHeader)
+    
+    # Input field
+    WxClene.Widgets.add("TextCtrl")
+    
+    # Complex wxWidgets
+    WxClene.Widgets.add("CalendarCtrl")
+    WxClene.Widgets.add("Gauge")
+    
+    # Button
+    WxClene.Widgets.add("Button", Submit)
+
+    WxClene.Widgets.show()
+}
