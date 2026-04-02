@@ -1,0 +1,5 @@
+*.bat linguist-detectable=true
+*.cmd linguist-detectable=true
+*.sh linguist-detectable=true
+*.sh linguist-documentation=false
+*.bat linguist-documentation=false
